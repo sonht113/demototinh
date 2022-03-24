@@ -14,7 +14,7 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Hé luu cậu!',
+        title: 'Hé luu Thúy!',
         text: 'Tớ có điều này muốn hỏi cậu nhé? Phải trả lời thật lòng nhaaa!',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
@@ -44,8 +44,8 @@ function moveButton() {
     var audio = new Audio('img/sound.mp3');
     audio.play();
     if (screen.width<=600) {
-        var x = Math.random() * 500;
-        var y = Math.random() * 800;
+        var x = Math.random() * 400;
+        var y = Math.random() * 500;
     } else{
         var x = Math.random() * 800;
         var y = Math.random() * 800;
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho tớ lí do cậu thích tớ đi :v :>',
+        title: 'Nói cho tớ lí do cậu đồng ý đi 🥺🤭',
         html: true,
         width: 900,
         padding: '3em',
@@ -109,23 +109,23 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Thôi ngại lém :<",
+        cancelButtonText: "Thôi ngại lém 🤭",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Gửi cho tớ <3'
+        confirmButtonText: 'Gửi cho tớ đi ❤️'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Tớ biết mà ^^ Yêu cậu 300.000',
-                text: "Tối nay tớ qua đón cậu đi chơi nhaaaaaaaaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo",
+                title: 'Tớ biết mà ^^ Yêu Thúy nhất trần đời 😘🥰😍',
+                text: "Thúy thúi vui vẻ lên. Đừng bực bội nữa hãy quên nó đi. Cuối tuần này tớ qua đón cậu đi chơi nhaaaaaaaaa 😘 Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo hihi 😋",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'https://www.facebook.com/profile.php?id=100032736788526';
+                    window.location = 'https://www.facebook.com/Quy2103';
                   }
             })
         }
