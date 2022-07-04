@@ -14,7 +14,7 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Hé luu Thúy!',
+        title: 'Hé luu Bấy bề!',
         text: 'Tớ có điều này muốn hỏi cậu nhé? Phải trả lời thật lòng nhaaa!',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
@@ -47,8 +47,8 @@ function moveButton() {
         var x = Math.random() * 400;
         var y = Math.random() * 500;
     } else{
-        var x = Math.random() * 800;
-        var y = Math.random() * 800;
+        var x = Math.random() * 500;
+        var y = Math.random() * 500;
     }
     var left = x + 'px';
     var top = y + 'px';
@@ -121,11 +121,11 @@ $('#yes').click(function() {
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Tớ biết mà ^^ Yêu Thúy nhất trần đời 😘🥰😍',
-                text: "Thúy thúi vui vẻ lên. Đừng bực bội nữa hãy quên nó đi. Cuối tuần này tớ qua đón cậu đi chơi nhaaaaaaaaa 😘 Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo hihi 😋",
+                title: 'Tớ biết mà ^^ Yêu cậu nhất trên đời 😘🥰😍',
+                text: "Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo hihi 😋",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'https://www.facebook.com/Quy2103';
+                    window.location = 'https://www.facebook.com/profile.php?id=100032736788526';
                   }
             })
         }
